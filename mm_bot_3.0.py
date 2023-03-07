@@ -320,7 +320,7 @@ def gift_mm_in(message):
     bot.send_invoice(message.from_user.id,
     title='Подарочный промокод курса ММ Инь',
     description='Подарочный промокод курса ММ Инь',
-    provider_token='381764678:TEST:48483',
+    provider_token='PROVIDER TOKEN',
     currency='rub',
     prices=[price],
     invoice_payload='promo_mm_in')
@@ -337,7 +337,7 @@ def buy_mm_in(message):
         bot.send_invoice(message.from_user.id,
         title='Курс медитативной мастурбации Инь',
         description='Курс по медитативной мастурбации Инь',
-        provider_token='381764678:TEST:48483',
+        provider_token='PROVIDER TOKEN',
         currency='rub',
         prices=[price],
         invoice_payload='mm_in_paid')
@@ -351,7 +351,7 @@ def buy_mm_yang(message):
         bot.send_invoice(message.from_user.id,
         title='Курс медитативной мастурбации Ян',
         description='Курс по медитативной мастурбации Ян',
-        provider_token='381764678:TEST:48483',
+        provider_token='PROVIDER TOKEN',
         currency='rub',
         prices=[price],
         invoice_payload='mm_yang_paid')
@@ -488,7 +488,7 @@ def gift_mm_yang(message):
     bot.send_invoice(message.from_user.id,
     title='Подарочный промокод курса ММ Ян',
     description='Подарочный промокод курса ММ Ян',
-    provider_token='381764678:TEST:48483',
+    provider_token='PROVIDER TOKEN',
     currency='rub',
     prices=[price],
     invoice_payload='promo_mm_yang')
